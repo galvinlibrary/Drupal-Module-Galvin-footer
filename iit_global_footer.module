@@ -93,10 +93,10 @@ function iit_global_footer_build_contents() {
   $html_output .= '</div><!-- end #iit-gf-contact --></div><!-- end #iit-gf-branding-wrapper -->';
 
   $html_output .= '<div id="iit-gf-links"><ul>';
-  $html_output .= '<li>&nbsp;</li>';// force other items down
-  $html_output .= '<li class="staff"><a href="/user">Staff Login</a></li>';
   $html_output .= '<li><a href="mailto:library@iit.edu">library@iit.edu</a></li>';
   $html_output .= '<li><a class="emergency-info-link" title="Emergency Information" href="http://web.iit.edu/emergency">Emergency Information</a></li>';
+  $html_output .= '<li>&nbsp;</li>';// force other items down
+  $html_output .= '<li class="staff"><a href="/user">Staff Login</a></li>';
   $html_output .= '</ul></div><!-- end #iit-gf-links -->';
 
   $html_output .= '</div><!-- end #iit-gf-container -->';
