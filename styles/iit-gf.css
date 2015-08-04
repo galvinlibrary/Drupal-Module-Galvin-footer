@@ -4,6 +4,13 @@
 /** /
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800,300italic,400italic,600italic,700italic,800italic|Open+Sans+Condensed:300,300italic,700);
 /**/
+@media only screen and (max-width:1024px) {
+  .cc-logo{
+    display:block;
+    clear:both;
+    text-align:center;
+  }
+}  
 #iit-gf-wrapper {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -172,6 +179,7 @@
 #iit-gf-links ul li:first-child {
     border: 0;
 }
+
 } /* end Tablet portrait */
 
 
@@ -233,4 +241,5 @@
 #iit-gf-links ul {
     text-align: center;
 }
+
 } /* end Smartphone portrait */
